@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "allymc",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -14,22 +14,23 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/vanityslots/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "moe.ally.vanityslots.VanitySlots"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "vanityslots.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.16.x",
+    "trinkets": ">=2.4.0"
   },
   "suggests": {
     "another-mod": "*"
