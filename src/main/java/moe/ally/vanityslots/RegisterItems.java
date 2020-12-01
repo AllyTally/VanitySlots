@@ -11,8 +11,6 @@ import net.minecraft.util.registry.Registry;
 public class RegisterItems {
 
     public static final ArmorMaterial customArmorMaterial = new CustomArmorMaterial();
-    public static final Item CUSTOM_MATERIAL = new Item(new Item.Settings().group(ItemGroup.COMBAT));
-    // If you made a new material, this is where you would note it.
     public static final Item CUSTOM_MATERIAL_HELMET = new ArmorItem(customArmorMaterial, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
     public static final Item CUSTOM_MATERIAL_CHESTPLATE = new ArmorItem(customArmorMaterial, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT));
     public static final Item CUSTOM_MATERIAL_LEGGINGS = new ArmorItem(customArmorMaterial, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT));

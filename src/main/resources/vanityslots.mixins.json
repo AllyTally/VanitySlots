@@ -4,8 +4,8 @@
   "package": "moe.ally.vanityslots.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinArmorItem",
-    "MixinGetAttackDistanceScalingFactor"
+    "MixinGetAttackDistanceScalingFactor",
+    "MixinSense"
   ],
   "client": [
     "client.MixinArmorFeatureRenderer"
